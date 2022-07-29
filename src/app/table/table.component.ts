@@ -44,7 +44,6 @@ export class TableComponent {
   ngOnInit() {}
 
   addTable() {
-    console.log(this.row.length);
     const obj = {
       id: '',
       firstName: '',
